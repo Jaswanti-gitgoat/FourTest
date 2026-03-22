@@ -1,0 +1,26 @@
+{
+  "app": { "name": "FourTest", "env": "production", "branch": "feature/app-config" },
+  "database": {
+    "host": "prod-db.internal",
+    "password": "db_hardcoded_pass_FourTest_EXAMPLE123",
+    "connectionString": "postgres://root:rootPass_FourTest@prod-db.internal/appdb"
+  },
+  "auth": {
+    "jwtSecret": "jwt_hardcoded_secret_FourTest_1234567890ABCDEF",
+    "apiKey": "api_key_hardcoded_FourTest_ABCDEFGHIJKLMNOP",
+    "adminToken": "admin_token_hardcoded_FourTest_9876543210"
+  },
+  "aws": {
+    "accessKeyId": "AKIAIOSFODNN7EXAMPLE",
+    "secretAccessKey": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "region": "us-east-1"
+  },
+  "thirdParty": {
+    "stripeSecretKey": "sk_live_hardcoded_FourTest_1234567890abcdef",
+    "sendgridApiKey": "SG.hardcoded_FourTest.ABCDEFGHIJKLMNOPQRST",
+    "twilioToken": "twilio_hardcoded_FourTest_EXAMPLE123456",
+    "googleApiKey": "AIzaSyExampleGoogleApiKey_FourTest",
+    "slackBotToken": "xoxb-1234567890-SlackBotToken_FourTest",
+    "azureClientSecret": "AzureClientSecret_Hardcoded_FourTest_123"
+  }
+}
